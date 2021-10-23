@@ -34,5 +34,10 @@ int main()
 		if (i != n){cout << ", ";}
 	}
 	
+	// to prevent the program from closing
+	// instantaneously 
+	
+	cout << endl;
+	system("pause");
 	return 0;
 }
